@@ -1,0 +1,213 @@
+﻿*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+img
+{
+    max-width:100%;
+}
+
+li{
+    list-style:none;
+}
+
+body
+{
+    
+    
+}
+
+#page
+{
+    width:auto;
+    display:flex;
+    margin-left:10%;
+    margin-right:10%;
+    background-color:whitesmoke;
+}
+
+#colonne_gauche
+{
+    background-color: #FF6D00;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 25%;
+}
+
+#colonne_gauche #photo p
+{
+    padding-top:20%;
+    display:block;
+    text-align:center;
+    
+}
+
+#colonne_gauche #photo_moi
+{
+    text-align:center;
+}
+
+#colonne_gauche #contact
+{
+  
+}
+
+#colonne_gauche h1 
+{
+    background: url(images/fond_gris.png) repeat;
+    
+    color: #FF6D00;
+    text-align: center;
+    
+}
+
+#icons
+{
+   font-size:2em;
+   display:flex;
+   justify-content: space-around;
+}
+
+#nom_prenom
+{
+    padding-left:10%;
+    margin-bottom:20%;
+}
+
+#nom_prenom h1
+{
+    font-size:4em;
+    margin-bottom:0;
+}
+
+#nom_prenom h2
+{
+    font-size:2em;
+    margin-top:0;
+}
+
+.profil h1
+{
+    font-size:2em;
+    margin-left:10%;
+    border-bottom:2px solid chocolate;
+    padding-bottom:1%;
+    margin-right:10%;
+}
+
+ .prenom
+{
+    color:#FF6D00;
+}
+.fa-user-graduate 
+{
+    font-size: 1.5em;
+    margin-right:0.5em;
+
+}
+
+.fa-briefcase 
+{
+    font-size: 1.5em;
+    margin-right: 0.5em;
+}
+
+.fa-sticky-note 
+{
+    font-size: 1.5em;
+    margin-right: 0.5em;
+}
+
+.element 
+{
+    
+    display: flex;
+   
+    
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.dates p
+{
+    display:block;
+    text-align:left;    
+    width:10em;    
+}
+
+
+
+.contenu
+{
+    margin-left: 3%;
+    text-align:left;
+}
+
+.contenu h2
+{
+    padding-bottom:0;
+}
+
+.contenu h3
+{
+    padding-top:0;
+    font-size:1.2em;
+    font-weight:normal;
+}
+
+.profil p2 p3
+{
+    line-height:0.5em;
+}
+
+.recommandation
+{
+    padding-right:30%;
+    font-size:0.8em;
+    
+}
+
+
+
+@media(max-width:1150px)
+{
+    #page
+    {
+        width:auto;
+        margin:auto;
+    }
+
+    #colonne_gauche
+    {
+        font-size:0.8em;
+    }
+
+    #colonne_gauche #contact 
+    {
+        font-size: 0.8em;
+    }
+
+    #nom_prenom
+    {
+        font-size:0.5em;
+    }
+    .profil
+    {
+        font-size:0.6em;
+    }
+
+    .dates p
+    {
+        width:5em;
+        
+    }
+
+    .fas
+    {
+        font-size:0.9em;
+    }
+}
