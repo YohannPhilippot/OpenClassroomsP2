@@ -9,57 +9,83 @@
 </head>
 <body>
     <div id="page">
-        <section id="colonne_gauche">
+        <header>
             <div id="photo">
-               <picture>
-                   <source srcset="images/photo_moi_mini.png"
-                           media="(max-width: 1024px)" />
-                   <img src="images/photo_moi.png" alt="photo de moi" class="responsive"/>
+                <picture>
+                    <source srcset="images/photo_moi_mini.png"
+                            media="(max-width: 1024px)" />
+                    <img src="images/photo_moi.png" alt="photo de moi" class="responsive" />
                 </picture>
             </div>
-            
-            <h1>CONTACT</h1>  
-            <div id="contact">
-                <div class="infos">
-                    <p>Adresse<br/>
-                    10 Bis rue nationale<br />78940 La Queue-Lez-Yvelines, France</p>
-                </div>
-                <div class="infos">
-                    <p>Téléphone<br/>
-                    06 29 33 81 05</p>
-                </div>
-                <div class="infos">
-                    <p>Email<br/>
-                    philippot.yohann@gmail.com</p>
-                </div>
-                <div class="infos">
-                    <p>Site web<br/>
-                    www.MonSiteWeb.com</p>
-                </div>
-                <div class="infos">
-                    <p>Skype<br/>
-                    @Yohann_Philippot</p>
-                </div>
+            <div id="nom_prenom">
+                <h1><span class="prenom">YOHANN</span> PHILIPPOT</h1>
+                <h2><span id="souligne">Dével</span>oppeur web freelance</h2>
             </div>
+        </header>
+
+    <div id="content">
+            
+        <div id="colonne_gauche">
+
+            <div id="contact">
+
+
+                <h1>CONTACT</h1>
+                <section class="renseignements">
+                    <div class="infos">
+                        <p>
+                            Adresse<br />
+                            10 Bis rue nationale<br />78940 La Queue-Lez-Yvelines, France
+                        </p>
+                    </div>
+                    <div class="infos">
+                        <p>
+                            Téléphone<br />
+                            06 29 33 81 05
+                        </p>
+                    </div>
+                    <div class="infos">
+                        <p>
+                            Email<br />
+                            philippot.yohann@gmail.com
+                        </p>
+                    </div>
+                    <div class="infos">
+                        <p>
+                            Site web<br />
+                            www.MonSiteWeb.com
+                        </p>
+                    </div>
+                    <div class="infos">
+                        <p>
+                            Skype<br />
+                            @Yohann_Philippot
+                        </p>
+                    </div>
+                </section>
+            </div>
+
 
             <h1>A PROPOS DE MOI</h1>
+            <section class="renseignements">
+                <div id="description">
+                    <p>Je n'ai pas d'inspiration pour écrire du texte, du coup je comble juste pour que mon texte remplisse un petit peu de place dans la catégorie et que cela ressemble un minimum au produit proposé.</p>
+                </div>
+            </section>
 
-            <div id="a_propos">
-                <p>Je n'ai pas d'inspiration pour écrire du texte, du coup je comble juste pour que mon texte remplisse un petit peu de place dans la catégorie et que cela ressemble un minimum au produit proposé.</p>
-            </div>
+
             <h1>LOISIRS</h1>
-             <div id="icons">   
-                <i class="fas fa-gamepad"></i>
-                <i class="fas fa-users"></i>
-                <i class="fas fa-music"></i>
-             </div>
-        </section>
-
-        <aside>
-            <div id="nom_prenom">
-            <h1><span class="prenom">YOHANN</span> PHILIPPOT</h1>
-                <h2>Développeur web freelance</h2>
-            </div>
+            <section class="renseignements">
+                <div id="icons">
+                    <i class="fas fa-gamepad"></i>
+                    <i class="fas fa-users"></i>
+                    <i class="fas fa-music"></i>
+                </div>
+            </section>
+        </div>
+        
+        
+            
         
     
         <aside>
@@ -143,8 +169,9 @@
                 </div>
             </div>
         </aside>
-        </aside>
-    </div>
+        
+       </div> 
+    </div>  
 </body>
      
 </html>

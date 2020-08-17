@@ -20,39 +20,77 @@ body
     
 }
 
+header 
+{
+    display: flex;
+    margin-bottom:-5px;
+    
+}
+
+header img
+{
+    background-color:#FF6D00;
+    width:380px;
+    padding:18% 18% 12% 18%;
+    
+    
+}
+
+#souligne
+{
+    border-bottom:2px solid #FF6D00;
+    border
+}
 #page
 {
     width:auto;
-    display:flex;
     margin-left:10%;
     margin-right:10%;
     background-color:whitesmoke;
-}
-
-#colonne_gauche
-{
-    background-color: #FF6D00;
-    padding-left: 5%;
-    padding-right: 5%;
-    width: 25%;
-}
-
-#colonne_gauche #photo p
-{
-    padding-top:20%;
-    display:block;
-    text-align:center;
+    
     
 }
+
+
+main 
+{
+    display: flex;
+    
+   
+}
+
+#contact {
+    width: 380px;
+    
+}
+
+#colonne_gauche 
+{
+    background-color: #FF6D00;
+    
+}
+
+
 
 #colonne_gauche #photo_moi
 {
     text-align:center;
+    
 }
 
-#colonne_gauche #contact
+#content
 {
-  
+    display:flex;
+    margin-top:0;
+}
+
+.renseignements 
+{
+    width: 380px;
+    padding:8% 12% 12% 12%;
+    
+    background-color: #FF6D00;
+
 }
 
 #colonne_gauche h1 
@@ -64,17 +102,32 @@ body
     
 }
 
+.infos
+{
+    padding-bottom:20px;
+}
+
+#description
+{
+    padding-bottom:430px;
+}
+
+
 #icons
 {
    font-size:2em;
    display:flex;
    justify-content: space-around;
+   margin:auto;
+   padding-top:5px;
+   padding-bottom:5px;
+   
 }
 
 #nom_prenom
 {
-    padding-left:10%;
-    margin-bottom:20%;
+    padding-left:7%;
+    
 }
 
 #nom_prenom h1
@@ -93,7 +146,7 @@ body
 {
     font-size:2em;
     margin-left:10%;
-    border-bottom:2px solid chocolate;
+    border-bottom:2px solid #FF6D00;
     padding-bottom:1%;
     margin-right:10%;
 }
@@ -136,25 +189,30 @@ body
 {
     display:block;
     text-align:left;    
-    width:10em;    
+    width:10em;
+    padding-top:30px;
+    font-weight:bold;
 }
 
 
 
 .contenu
 {
+    padding-top:30px;
     margin-left: 3%;
     text-align:left;
+    padding-bottom:25px;
 }
 
 .contenu h2
 {
-    padding-bottom:0;
+    padding-bottom:10px;
+    font-size:1.4em;
 }
 
 .contenu h3
 {
-    padding-top:0;
+    padding-bottom:10px;
     font-size:1.2em;
     font-weight:normal;
 }
@@ -166,8 +224,12 @@ body
 
 .recommandation
 {
-    padding-right:30%;
-    font-size:0.8em;
+    margin-right:100px;
+    padding-top:30px;
+    padding-bottom:50px;
+    font-size:1em;
+    
+    width:400px;
     
 }
 
