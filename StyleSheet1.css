@@ -7,269 +7,99 @@
 
 img
 {
-    max-width:100%;
+    
 }
 
 li{
     list-style:none;
 }
 
-body
+body 
 {
-    
-    
+   
 }
 
 header 
 {
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
-    margin-bottom:-5px;
+}
+
+#photo
+{   
+    
+    width:30%;
+    background-color:yellow;
+    text-align:center;
+    padding-top:5%;
+    padding-bottom:3%;
+}
+
+header h1
+{
+    font-size:4em;
+    padding-top: 20%;
+}
+
+header h2
+{
     
 }
 
-header img
+#nom  
 {
-    background-color:#FF6D00;
-    width:380px;
-    padding:18% 18% 12% 18%;
-    
-    
+    padding-left:10%;
+    width:70%;
+}
+
+#prenom
+{
+    color:yellow;
 }
 
 #souligne
 {
-    border-bottom:2px solid #FF6D00;
-    border
-}
-#page
-{
-    width:auto;
-    margin-left:10%;
-    margin-right:10%;
-    background-color:whitesmoke;
-    
-    
+    border-bottom:2px solid yellow;
 }
 
-
-main 
-{
-    display: flex;
-    
-   
-}
-
-#contact {
-    width: 380px;
-    
-}
-
-#colonne_gauche 
-{
-    background-color: #FF6D00;
-    
-}
-
-
-
-#colonne_gauche #photo_moi
-{
-    text-align:center;
-    
-}
-
-#content
+main
 {
     display:flex;
-    margin-top:0;
-}
-
-.renseignements 
-{
-    width: 380px;
-    padding:8% 12% 12% 12%;
-    
-    background-color: #FF6D00;
-
-}
-
-#colonne_gauche h1 
-{
-    background: url(images/fond_gris.png) repeat;
-    
-    color: #FF6D00;
-    text-align: center;
-    
-}
-
-.infos
-{
-    padding-bottom:20px;
-}
-
-#description
-{
-    padding-bottom:430px;
-}
-
-
-#icons
-{
-   font-size:2em;
-   display:flex;
-   justify-content: space-around;
-   margin:auto;
-   padding-top:5px;
-   padding-bottom:5px;
-   
-}
-
-#nom_prenom
-{
-    padding-left:7%;
-    
-}
-
-#nom_prenom h1
-{
-    font-size:4em;
-    margin-bottom:0;
-}
-
-#nom_prenom h2
-{
-    font-size:2em;
-    margin-top:0;
-}
-
-.profil h1
-{
-    font-size:2em;
     margin-left:10%;
-    border-bottom:2px solid #FF6D00;
-    padding-bottom:1%;
     margin-right:10%;
 }
 
- .prenom
-{
-    color:#FF6D00;
-}
-.fa-user-graduate 
-{
-    font-size: 1.5em;
-    margin-right:0.5em;
-
+#informations {
+    width: 30%;
+    background-color: yellow;
 }
 
-.fa-briefcase 
+.profil
 {
-    font-size: 1.5em;
-    margin-right: 0.5em;
+    width:70%;
+    padding-left:10%;
 }
 
-.fa-sticky-note 
+.element
 {
-    font-size: 1.5em;
-    margin-right: 0.5em;
+    display:flex;
 }
 
-.element 
+footer 
 {
-    
-    display: flex;
-   
-    
     margin-left: 10%;
     margin-right: 10%;
+    display: flex;
 }
 
-
-.dates p
-{
-    display:block;
-    text-align:left;    
-    width:10em;
-    padding-top:30px;
-    font-weight:bold;
+#loisirs {
+    width: 30%;
+    background-color: yellow;
 }
 
-
-
-.contenu
+#recommandations
 {
-    padding-top:30px;
-    margin-left: 3%;
-    text-align:left;
-    padding-bottom:25px;
-}
-
-.contenu h2
-{
-    padding-bottom:10px;
-    font-size:1.4em;
-}
-
-.contenu h3
-{
-    padding-bottom:10px;
-    font-size:1.2em;
-    font-weight:normal;
-}
-
-.profil p2 p3
-{
-    line-height:0.5em;
-}
-
-.recommandation
-{
-    margin-right:100px;
-    padding-top:30px;
-    padding-bottom:50px;
-    font-size:1em;
-    
-    width:400px;
-    
-}
-
-
-
-@media(max-width:1150px)
-{
-    #page
-    {
-        width:auto;
-        margin:auto;
-    }
-
-    #colonne_gauche
-    {
-        font-size:0.8em;
-    }
-
-    #colonne_gauche #contact 
-    {
-        font-size: 0.8em;
-    }
-
-    #nom_prenom
-    {
-        font-size:0.5em;
-    }
-    .profil
-    {
-        font-size:0.6em;
-    }
-
-    .dates p
-    {
-        width:5em;
-        
-    }
-
-    .fas
-    {
-        font-size:0.9em;
-    }
+    width:70%;
+    padding-left:10%;
 }
