@@ -368,17 +368,21 @@ footer #icons
     {
         padding: 0;
         padding-right:0.2em!important;
-                 
+        text-align:center; 
+        font-weight:bold;
     }
 
-    .infos #last
-    {
-        
-    }
-
+    
     #a_propos 
     {
         padding-bottom: 1em;
+    }
+
+    #description
+    {
+        padding:0 1.5em 0 1.5em;
+        
+        margin:0;
     }
 
     .profil
@@ -431,6 +435,7 @@ footer #icons
     #recommandations
     {
         width:100%;
+        padding-right:5%;
         
     }
 
