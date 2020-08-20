@@ -205,24 +205,34 @@ main
 
 .reco 
 {
-    padding-bottom: 0;
-    margin-bottom: 0.7em!important;
+    font-size: 2em;
+    border-bottom: 2px solid #feca07;
+    padding-bottom: 1%;
+    margin-bottom: 1.3em;
+    font-weight: bold;
+    color: black;
+    background-color:none;
 }
 
+.reco .fas
+{
+    margin-right: 4%;
+    color: #feca07;
+}
 footer {
     margin-left: 15%;
     margin-right: 15%;
     display: flex;
-    
 }
 
 #loisirs 
 {
     width: 30%;
     background-color: #feca07;
+    padding-top:7%;
 }
 
-footer h2 
+#loisirs h2
 {
     text-align: center;
     background: #404040;
@@ -261,5 +271,185 @@ footer #icons
 .info_reco2
 {
     width:40%;
+}
+
+@media all and (min-width:992px) and (max-width:1200px)
+{
+    header
+    {
+        margin:0;
+    }
+
+    main
+    {
+        margin:0;
+    }
+
+    footer
+    {
+        margin:0;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:991px) {
+    img 
+    {
+        max-width: 100%;
+    }
+
+
+    header 
+    {
+        margin: 0;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #nom 
+    {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 1%;
+    }
+
+    header h1 
+    {
+        font-size: 3em;
+    }
+
+    #photo 
+    {
+        width: 100%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        text-align: center;
+    }
+
+    main 
+    {
+        margin: 0;
+        flex-direction: column-reverse;
+    }
+
+   
+    #informations, #contact 
+    {
+        order: 1;
+    }
+
+    #informations, #a_propos 
+    {
+        order: 2;
+    }
+
+    #informations 
+    {
+        width: 100%;
+    }
+
+    #contact 
+    {
+        display: flex;
+        font-size: 0.8em;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    #informations h2 
+    {
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+    }
+
+    .infos 
+    {
+        padding: 0;
+        padding-right:0.2em!important;
+                 
+    }
+
+    .infos #last
+    {
+        
+    }
+
+    #a_propos 
+    {
+        padding-bottom: 1em;
+    }
+
+    .profil
+    {
+        width:100%;
+        justify-content:center;
+        padding-top:0.5em;
+    }
+
+    .profil h2
+    {
+        text-align:center;
+        margin:0;
+        margin-bottom:0.5em;       
+    }
+
+    .contenu
+    {
+        padding-bottom:1em;
+    }
+
+    footer
+    {
+        width:100%;
+        display:block;
+        padding:0;
+        padding-bottom:1.5em;
+        margin:0;
+    }
+
+    #loisirs
+    {
+        width:100%;
+        padding:0;
+    }
+
+    #loisirs .fas
+    {
+        font-size:1.5em;
+        
+    }
+
+    #loisirs #icons
+    {
+        padding:0;
+        padding-top:0.5em;
+        padding-bottom:0.5em;
+    }
+
+    #recommandations
+    {
+        width:100%;
+        
+    }
+
+    #recommandations h2
+    {
+        text-align:center;
+        padding-top:0.5em;
+        margin-bottom:0.5em;
+    }
+
+    #recommandations .element
+    {
+        justify-content:space-between;
+    }
+
+    .info_reco1
+    {
+        margin-right:0;
+    }
+    
 }
 
