@@ -662,7 +662,6 @@ footer #icons
         margin:0;
         width:100%;
         padding-bottom:1em;
-
         font-size:0.8em;
 
     }
@@ -683,13 +682,7 @@ footer #icons
         margin-bottom: 0.5em;
     }
 
-    .contenu 
-    {
-        padding-bottom: 1em;
-
-        
-        font-size:1.5em;
-    }
+    
 
     .profil h3
     {
