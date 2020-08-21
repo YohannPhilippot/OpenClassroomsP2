@@ -574,6 +574,11 @@ footer #icons
         padding-bottom: 1em;
     }
 
+    .renseignements
+    {
+        font-size:0.8em;
+    }
+
     #description 
     {
         padding: 0 1.5em 0 1.5em;
