@@ -30,6 +30,13 @@ li{
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('OpenSans-Bold-webfont.eot');
+    src: url('OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('OpenSans-Bold-webfont.woff2') format('woff2'), url('OpenSans-Bold-webfont.woff') format('woff'), url('OpenSans-Bold-webfont.ttf') format('truetype'), url('OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
 
 
 body 
@@ -476,8 +483,13 @@ footer #icons
 {
     img 
     {
+
         max-width: 50%;
         
+
+        max-width: 30%;
+        padding-top:1em;
+
     }
 
 
@@ -495,6 +507,11 @@ footer #icons
         width: 100%;
         text-align: center;
         padding-bottom: 1%;
+
+        margin:auto;
+        padding-left:0;
+        margin-bottom:2em;
+
     }
 
     header h1 
@@ -511,9 +528,17 @@ footer #icons
         margin: 0;
         padding: 0;
         text-align: center;
+
         background: none;
         background: #feca07;
     }
+
+
+    #photo img
+    {
+        border:none;
+    }
+
 
     main 
     {
@@ -556,6 +581,10 @@ footer #icons
     {
         margin-bottom: 0.5em;
         margin-top: 0.5em;
+
+        line-height:1.5em;
+        font-size:1.2em;
+
         
     }
 
@@ -576,7 +605,11 @@ footer #icons
 
     .renseignements
     {
-        font-size:0.8em;
+
+        
+
+        font-size:0.85em;
+
     }
 
     #description 
@@ -595,9 +628,15 @@ footer #icons
         width: 100%;
         text-align: center;
         justify-content: center;
+
         padding-bottom: 1em;
         font-weight: bolder;
         text-decoration: underline solid #feca07;
+
+        padding-bottom: 0.5em;
+        padding-top: 0.5em;
+        font-family: "open_sansbold",Arial,serif;
+
         
     }
 
@@ -605,9 +644,16 @@ footer #icons
     {
         display:block;
         margin:0;
+
         padding:0;
         text-align:center;
         width:100%;
+
+
+        padding:0;      
+        text-align:center;
+        width:100%;
+       
 
     }
 
@@ -616,6 +662,9 @@ footer #icons
         margin:0;
         width:100%;
         padding-bottom:1em;
+
+        font-size:0.8em;
+
     }
 
 
@@ -630,12 +679,30 @@ footer #icons
     {
         text-align: center;
         margin: 0;
+
         margin-bottom: 0.5em;
     }
 
     .contenu 
     {
         padding-bottom: 1em;
+
+        
+        font-size:1.5em;
+    }
+
+    .profil h3
+    {
+        font-size:1.4em;
+        padding-bottom:0.3em;
+    }
+   
+    .profil h4
+    {
+        font-size:1.2em;
+        padding-bottom:0.2em;
+        
+
     }
 
     footer 
@@ -653,9 +720,18 @@ footer #icons
         padding: 0;
     }
 
+
+   
+    #loisirs h2
+    {
+        line-height:1.5em;
+        font-size:1.3em;
+    }
+
     #loisirs .fas 
     {
-        font-size: 1.5em;
+        font-size: 1em;
+
     }
 
     #loisirs #icons 
@@ -678,10 +754,16 @@ footer #icons
         text-align: center;
         padding-top: 0.5em;
         margin-bottom: 0.5em;
+
+        font-size:1.5em;
+
     }
 
     #recommandations .element 
     {
+
+        display:flex;
+
         justify-content: space-between;
     }
 
@@ -690,12 +772,18 @@ footer #icons
         text-align:center;
         width:100%;
         padding-bottom:2em;
+
+        font-size:.8em;
+
     }
 
     .info_reco2 
     {
         text-align: center;
         width: 100%;
+
+        font-size: .8em;
+
     }
 }   
 
