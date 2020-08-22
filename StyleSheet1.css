@@ -1,10 +1,9 @@
-﻿*
+﻿* 
 {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
 img
 {
     max-width:100%;
@@ -92,7 +91,7 @@ header h2
 {
     font-weight:bold;
     color:#FFCA28;
-}
+}.infos p
 
 #souligne 
 {
@@ -111,6 +110,7 @@ main
 {
     width: 33%;
     background-color: #feca07;
+    
     
 }
 
@@ -225,7 +225,7 @@ main
     margin-bottom: 1.3em;
     font-weight: bold;
     color: black;
-    background-color:none;
+    
 }
 
 .reco .fas
@@ -287,7 +287,7 @@ footer #icons
     width:40%;
 }
 
-@media all and (min-width:992px) and (max-width:1200px)
+@media screen and (min-width:992px) and (max-width:1200px)
 {
     header
     {
@@ -305,7 +305,7 @@ footer #icons
     }
 }
 
-@media all and (min-width:768px) and (max-width:991px) {
+@media screen and (min-width:768px) and (max-width:991px) {
     img 
     {
         max-width: 100%;
@@ -479,22 +479,15 @@ footer #icons
     
 }
 
-@media all and (max-width:767px) 
-{
-    img 
-    {
-
+@media screen and (max-width:767px) {
+    img {
         max-width: 50%;
-        
-
         max-width: 30%;
-        padding-top:1em;
-
+        padding-top: 1em;
     }
 
 
-    header 
-    {
+    header {
         margin: 0;
         flex-direction: column-reverse;
         justify-content: center;
@@ -502,204 +495,154 @@ footer #icons
         justify-content: center;
     }
 
-    #nom 
-    {
+    #nom {
         width: 100%;
         text-align: center;
         padding-bottom: 1%;
-
-        margin:auto;
-        padding-left:0;
-        margin-bottom:2em;
-
+        margin: auto;
+        padding-left: 0;
+        margin-bottom: 2em;
     }
 
-    header h1 
-    {
+    header h1 {
         font-size: 2em;
-        padding-bottom:0;
-
+        padding-bottom: 0;
     }
 
-    #photo 
-    {
-        padding-top:10em;
+    #photo {
+        padding-top: 10em;
         width: 100%;
         margin: 0;
         padding: 0;
         text-align: center;
-
-        background: none;
         background: #feca07;
     }
 
 
-    #photo img
-    {
-        border:none;
-    }
+        #photo img {
+            border: none;
+        }
 
 
-    main 
-    {
+    main {
         margin: 0;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
+    
 
-    #informations, #contact 
-    {
-        order: 1;
-    }
 
-    #informations, #a_propos 
-    {
-        order: 2;
-    }
 
-    #informations 
-    {
+    #informations {
         width: 100%;
+        display:flex;
+        flex-direction:column;
     }
 
-    #contact 
-    {
+    #contact {
         display: flex;
         font-size: 0.8em;
         justify-content: space-around;
         align-items: center;
     }
-    
-    #contact h3
-    {
-        font-weight:bolder;
-        text-decoration:underline;
 
-    }
+        #contact h3 {
+            font-weight: bolder;
+            text-decoration: underline;
+        }
 
-    #informations h2 
-    {
+    #informations h2 {
         margin-bottom: 0.5em;
         margin-top: 0.5em;
-
-        line-height:1.5em;
-        font-size:1.2em;
-
-        
+        line-height: 1.5em;
+        font-size: 1.2em;
     }
 
-    .infos 
-    {
+    .infos {
         padding: 0;
-        padding-bottom:0.5em;
+        padding-bottom: 0.5em;
         padding-right: 0.2em !important;
         text-align: center;
         font-weight: bold;
     }
 
 
-    #a_propos 
-    {
+    #a_propos {
         padding-bottom: 1em;
     }
 
-    .renseignements
-    {
-
-        
-
-        font-size:0.85em;
-
+    .renseignements {
+        font-size: 0.85em;
     }
 
-    #description 
-    {
+    #description {
         padding: 0 1.5em 0 1.5em;
         margin: 0;
     }
 
-    .cercle
-    {
-        display:none;
+    .cercle {
+        display: none;
     }
 
-    .dates 
-    {
+    .dates {
         width: 100%;
         text-align: center;
         justify-content: center;
-
         padding-bottom: 1em;
         font-weight: bolder;
         text-decoration: underline solid #feca07;
-
         padding-bottom: 0.5em;
         padding-top: 0.5em;
         font-family: "open_sansbold",Arial,serif;
-
-        
     }
 
-    .element
-    {
-        display:block;
-        margin:0;
-
-        padding:0;
-        text-align:center;
-        width:100%;
-
-
-        padding:0;      
-        text-align:center;
-        width:100%;
-       
-
+    .element {
+        display: block;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        width: 100%;
     }
 
-    .contenu
-    {
-        margin:0;
-        width:100%;
-        padding-bottom:1em;
-        font-size:0.8em;
-
+    .contenu {
+        margin: 0;
+        width: 100%;
+        padding-bottom: 1em;
+        font-size: 0.8em;
     }
 
 
-    .profil 
-    {
+    .profil {
+        display:flex;
+        flex-direction:column;
         width: 100%;
         justify-content: center;
         padding-top: 0.5em;
     }
 
-    .profil h2 
-    {
-        text-align: center;
-        margin: 0;
+        .profil h2 {
+            text-align: center;
+            margin: 0;
+            font-size: 1.5em;
+            margin-bottom: 0.5em;
+        }
 
-        margin-bottom: 0.5em;
-    }
 
-    
 
-    .profil h3
-    {
-        font-size:1.4em;
-        padding-bottom:0.3em;
-    }
-   
-    .profil h4
-    {
-        font-size:1.2em;
-        padding-bottom:0.2em;
-        
+        .profil h3 {
+            font-size: 1.4em;
+            padding-bottom: 0.3em;
+        }
 
-    }
+        .profil h4 {
+            font-size: 1.2em;
+            padding-bottom: 0.2em;
+        }
 
-    footer 
-    {
+    footer {
         width: 100%;
         display: block;
         padding: 0;
@@ -707,77 +650,58 @@ footer #icons
         margin: 0;
     }
 
-    #loisirs 
-    {
+    #loisirs {
         width: 100%;
         padding: 0;
     }
 
 
-   
-    #loisirs h2
-    {
-        line-height:1.5em;
-        font-size:1.3em;
-    }
 
-    #loisirs .fas 
-    {
-        font-size: 1em;
+        #loisirs h2 {
+            line-height: 1.5em;
+            font-size: 1.3em;
+        }
 
-    }
+        #loisirs .fas {
+            font-size: 1em;
+        }
 
-    #loisirs #icons 
-    {
-        padding: 0;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-    }
+        #loisirs #icons {
+            padding: 0;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+        }
 
-    #recommandations 
-    {
+    #recommandations {
         width: 100%;
         padding-right: 5%;
-        padding-bottom:1em;
-
+        padding-bottom: 1em;
     }
 
-    #recommandations h2
-    {
-        text-align: center;
-        padding-top: 0.5em;
-        margin-bottom: 0.5em;
+        #recommandations h2 {
+            text-align: center;
+            padding-top: 0.5em;
+            margin-bottom: 0.5em;
+            font-size: 1.5em;
+        }
 
-        font-size:1.5em;
+        #recommandations .element {
+            display: flex;
+            justify-content: space-between;
+        }
 
-    }
-
-    #recommandations .element 
-    {
-
-        display:flex;
-
-        justify-content: space-between;
-    }
-
-    .info_reco1 
-    {
-        text-align:center;
-        width:100%;
-        padding-bottom:2em;
-
-        font-size:.8em;
-
-    }
-
-    .info_reco2 
-    {
+    .info_reco1 {
         text-align: center;
         width: 100%;
-
+        padding-bottom: 2em;
         font-size: .8em;
-
     }
-}   
+
+    .info_reco2 {
+        text-align: center;
+        width: 100%;
+        font-size: .8em;
+    }
+}
 
 
