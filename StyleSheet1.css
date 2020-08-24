@@ -357,14 +357,18 @@ footer #icons
     main 
     {
         margin: 0;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
    
-    
+    .far
+    {
+        font-size:0.8em;
+    }
     #informations 
     {
         width: 100%;
+        
     }
 
     #contact 
