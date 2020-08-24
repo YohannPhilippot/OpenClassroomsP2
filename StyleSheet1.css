@@ -91,7 +91,7 @@ header h2
 {
     font-weight:bold;
     color:#FFCA28;
-}.infos p
+}
 
 #souligne 
 {
@@ -186,6 +186,15 @@ main
 .cercle
 {
     margin-right:2%;
+}
+
+.point_cercle
+{
+    margin-right:1.4%;
+    margin-top:0.5%;
+    color:#feca07;
+    
+    
 }
 
 .point 
@@ -580,7 +589,7 @@ footer #icons
         margin: 0;
     }
 
-    .cercle {
+    .cercle, .point_cercle {
         display: none;
     }
 
@@ -704,4 +713,13 @@ footer #icons
     }
 }
 
+@media screen and (max-device-width:767px)
+{
+    main{
+        flex-direction:column-reverse;
+    }
 
+    #a_propos .renseignements{
+        font-size:0.50em;
+    }
+}
