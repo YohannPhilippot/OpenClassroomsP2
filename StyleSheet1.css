@@ -181,6 +181,7 @@ main
     font-weight:bold;
     display:flex;
     justify-items:flex-start;
+    padding-right:2em;
 }
 
 .cercle
@@ -224,6 +225,7 @@ main
 {
     width:70%;
     padding-bottom:70px;
+    
 }
 
 .reco 
@@ -254,6 +256,8 @@ footer {
     background-color: #feca07;
     padding-top:7%;
 }
+
+   
 
 #loisirs h2
 {
@@ -357,16 +361,7 @@ footer #icons
     }
 
    
-    #informations, #contact 
-    {
-        order: 1;
-    }
-
-    #informations, #a_propos 
-    {
-        order: 2;
-    }
-
+    
     #informations 
     {
         width: 100%;
@@ -488,7 +483,7 @@ footer #icons
     
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:767px),(max-device-width:767px) {
     img {
         max-width: 50%;
         max-width: 30%;
@@ -538,14 +533,14 @@ footer #icons
         flex-direction: column;
     }
 
-    
+
 
 
 
     #informations {
         width: 100%;
-        display:flex;
-        flex-direction:column;
+        display: flex;
+        flex-direction: column;
     }
 
     #contact {
@@ -625,8 +620,8 @@ footer #icons
 
 
     .profil {
-        display:flex;
-        flex-direction:column;
+        display: flex;
+        flex-direction: column;
         width: 100%;
         justify-content: center;
         padding-top: 0.5em;
@@ -681,6 +676,8 @@ footer #icons
             padding-bottom: 0.5em;
         }
 
+
+
     #recommandations {
         width: 100%;
         padding-right: 5%;
@@ -713,13 +710,3 @@ footer #icons
     }
 }
 
-@media screen and (max-device-width:767px)
-{
-    main{
-        flex-direction:column-reverse;
-    }
-
-    #a_propos .renseignements{
-        font-size:0.50em;
-    }
-}
