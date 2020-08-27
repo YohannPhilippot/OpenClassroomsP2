@@ -8,10 +8,6 @@ img{
     max-width:100%;
 }
 
-li{
-    list-style:none;
-}
-
 @font-face {
     font-family: 'open_sansregular';
     src: url('polices/OpenSans-Regular-webfont.eot');
@@ -36,18 +32,15 @@ li{
     font-style: normal;
 }
 
-
 body {
     font-family: open_sanssemibold, Arial, serif;
-    color: #555555;
-    
+    color: #555555;   
 }
 
 header {
     margin-left: 15%;
     margin-right: 15%;
-    display: flex;
-   
+    display: flex;   
 }
 
 #photo {
@@ -77,8 +70,7 @@ header h2{
 #nom  {
     padding-left:5%;
     width:67%;
-    padding-bottom:10%;
-    
+    padding-bottom:10%;    
 }
 
 #prenom {
@@ -93,16 +85,13 @@ header h2{
 main {
     display: flex;
     margin-left: 15%;
-    margin-right: 15%;
-    
+    margin-right: 15%;    
 }
 
 #informations {
     width: 33%;
     background-color: #feca07;   
 }
-
-
 
 #informations h2 {
     text-align: center;
@@ -119,7 +108,7 @@ main {
     padding-right:12%;
 }
 
-#contact h3{
+.contact h3{
     font-size:1.1em;
 }
 
@@ -162,34 +151,29 @@ main {
     padding-right:2em;
 }
 
-.exter{
-    margin-right:2%;
-}
-
 .point {
-    margin:0;
-    padding:0;
     height: 15px;
     width:15px;
     background-color: #feca07;
     border-radius: 50%;
     border:5px solid white;
 }
+
 .cercle{
-    margin:0;
-    padding:0;
     margin-right:2%;
-    margin-left:-2.5%;
+    margin-left:-1.5%;
     height:20px;
     width:20px;
     border-radius:50%;
     background-color:#feca07;
     display:flex;
     justify-content:center;
-    align-items:center;
-    
+    align-items:center;   
 }
 
+.exter {
+    margin-right: 2%;
+}
 
 .inter {
     height: 10px;
@@ -241,15 +225,12 @@ footer {
     padding-top:7%;
 }
 
-   
-
 #loisirs h2{
     text-align: center;
     background: #404040;
     line-height: 2em;
     color: #feca07;
 }
-
 
 footer #icons{   
     padding-left:12%;
@@ -309,7 +290,6 @@ footer #icons{
         max-width: 100%;
     }
 
-
     header {
         margin: 0;
         flex-direction: column-reverse;
@@ -339,25 +319,23 @@ footer #icons{
         margin: 0;
         flex-direction: column;
     }
-
-   
+  
     .far{
         font-size:0.8em;
     }
+
     #informations {
-        width: 100%;
-        
+        width: 100%;       
     }
 
-    #contact {
+    .contact {
         display: flex;
         font-size: 0.8em;
         justify-content: space-around;
-        align-items: center;
-        
+        align-items: center;      
     }
 
-    #contact h3{
+    .contact h3{
         font-weight:bolder;
         text-decoration:underline;
     }
@@ -369,7 +347,7 @@ footer #icons{
 
     .infos {
         padding: 0;
-        padding-right:0.2em!important;
+        padding-right:0.2em;
         text-align:center; 
         font-weight:bold;
         padding-bottom:0.5em;
@@ -414,8 +392,7 @@ footer #icons{
     }
 
     #loisirs .fas{
-        font-size:1em;
-        
+        font-size:1em;       
     }
 
     #loisirs #icons{
@@ -441,8 +418,7 @@ footer #icons{
 
     .info_reco1{
         margin-right:0;
-    }
-    
+    }   
 }
 
 @media screen and (max-width:767px) {
@@ -451,7 +427,6 @@ footer #icons{
         max-width: 30%;
         padding-top: 1em;
     }
-
 
     header {
         margin: 0;
@@ -484,20 +459,14 @@ footer #icons{
         background: #feca07;
     }
 
-
-        #photo img {
-            border: none;
-        }
-
+    #photo img {
+        border: none;
+    }
 
     main {
         margin: 0;
         flex-direction: column;
     }
-
-
-
-
 
     #informations {
         width: 100%;
@@ -505,19 +474,17 @@ footer #icons{
         flex-direction: column;
     }
 
-    #contact {
+    .contact {
         display: flex;
         font-size: 0.6em;
         justify-content: space-around;
         align-items: center;
     }
 
-        #contact h3 {
-            font-weight: bolder;
-            text-decoration: underline;
-        }
-
-    
+    .contact h3 {
+        font-weight: bolder;
+        text-decoration: underline;
+    }
 
     #informations h2 {
         margin-bottom: 0.5em;
@@ -533,8 +500,6 @@ footer #icons{
         text-align: center;
         font-weight: bold;
     }
-   
-
 
     #a_propos {
         padding-bottom: 1em;
@@ -587,7 +552,6 @@ footer #icons{
         font-size: 0.8em;
     }
 
-
     .profil {
         display: flex;
         flex-direction: column;
@@ -596,24 +560,22 @@ footer #icons{
         padding-top: 0.5em;
     }
 
-        .profil h2 {
-            text-align: center;
-            margin: 0;
-            font-size: 1.5em;
-            margin-bottom: 0.5em;
-        }
+    .profil h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+    }
 
+    .profil h3 {
+        font-size: 1.2em;
+        padding-bottom: 0.3em;
+    }
 
-
-        .profil h3 {
-            font-size: 1.4em;
-            padding-bottom: 0.3em;
-        }
-
-        .profil h4 {
-            font-size: 1.2em;
-            padding-bottom: 0.2em;
-        }
+    .profil h4 {
+        font-size: 1.2em;
+        padding-bottom: 0.2em;
+    }
 
     footer {
         width: 100%;
@@ -628,27 +590,25 @@ footer #icons{
         padding: 0;
     }
 
+    #loisirs h2 {
+        line-height: 1.5em;
+        font-size: 1.3em;
+    }
 
+    #loisirs .fas {
+        font-size: 1em;
+    }
 
-        #loisirs h2 {
-            line-height: 1.5em;
-            font-size: 1.3em;
-        }
+    #loisirs #icons {
+        padding: 0;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
 
-        #loisirs .fas {
-            font-size: 1em;
-        }
-
-        #loisirs #icons {
-            padding: 0;
-            padding-top: 0.5em;
-            padding-bottom: 0.5em;
-        }
     .entourer{
         height:40px;
         width:40px;
     }
-
 
     #recommandations {
         width: 100%;
@@ -656,17 +616,17 @@ footer #icons{
         padding-bottom: 1em;
     }
 
-        #recommandations h2 {
-            text-align: center;
-            padding-top: 0.5em;
-            margin-bottom: 0.5em;
-            font-size: 1.5em;
-        }
+    #recommandations h2 {
+        text-align: center;
+        padding-top: 0.5em;
+        margin-bottom: 0.5em;
+        font-size: 1.5em;
+    }
 
-        #recommandations .element {
-            display: flex;
-            justify-content: space-between;
-        }
+    #recommandations .element {
+        display: flex;
+        justify-content: space-between;
+    }
 
     .info_reco1 {
         text-align: center;
